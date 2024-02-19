@@ -1,0 +1,116 @@
+body {
+    background-color: #d5ebfd;
+    opacity: 0.9;
+    background-image: radial-gradient(ellipse 20px 40px at center, rgb(138, 0, 124, 0.1) 2px, #ffffff 1.5px);
+    background-size: 30px 30px;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 50px;
+    text-align: center;
+    font-size: large;
+    font-family: "Georgia", serif;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+ul.column {
+    display:inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+img.foto-profil {
+    border-radius: 100%;
+    border: rgb(22, 100, 173) 5px;
+    border-style:double;
+    image-rendering: optimizeQuality;
+    width: 250px;
+}
+main img {
+    height: 40px;
+}
+a {
+    text-decoration: none;
+}
+.link ul li {
+    background: linear-gradient(to left, rgba(34, 183, 252, 0.8), rgb(22, 100, 173));
+    padding: 20px;
+    margin: 5%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+    cursor: pointer;
+}
+.link ul li:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+.link ul li a {
+    display: block; 
+    color: white;
+    text-decoration: none;
+}
+.link a {
+    color: white;
+}
+#title {
+    color: rgb(22, 100, 173) ;
+    text-transform: capitalize;
+}
+
+.pendidikan {
+    text-align: left; 
+    margin-bottom: 40px;
+}
+
+.pendidikan h2{
+    color: rgb(22, 100, 173) ;
+    text-align: left; 
+}
+
+.skills {
+    text-align: left;
+}
+
+.skills h2 {
+    color: rgb(22, 100, 173) ;
+    padding-bottom: 5px;
+}
+
+.skill-item {
+    display: inline-block; 
+    border: 2px solid rgb(22, 100, 173);
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    margin: 5px; 
+}
+
+.projects {
+    text-align: left;
+}
+
+.projects h2 {
+    color: rgb(22, 100, 173) ;
+    padding-bottom: 5px;
+}
+
+.project-item {
+    display: inline-block; 
+    border: 2px solid rgb(22, 100, 173);
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    margin: 5px; 
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+ul.row li{
+    font-size: large;
+    margin:20px 0;
+}
+header {
+    margin-bottom: 50px;
+}
